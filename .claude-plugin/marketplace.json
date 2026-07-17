@@ -8,7 +8,7 @@
   "metadata": {
     "description": "Dolt/DoltHub version-control toolkit for Claude Code — a VC-surface skill, expert agents, and a wired dolt-mcp server. Ships the beads (bd) adapter today. Formerly beads-dolt.",
     "version": "0.2.0",
-    "homepage": "https://github.com/jeremylongshore/dolt-mcp-vcs",
+    "homepage": "https://github.com/jeremylongshore/dolt-mcp-vcs-plugin",
     "lastUpdated": "2026-07-17"
   },
   "plugins": [
