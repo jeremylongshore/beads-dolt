@@ -1,8 +1,8 @@
 # 000-docs index — beads-dolt → dolt-mcp-vcs
 
-Document inventory for the `beads-dolt` plugin (being inverted into the Dolt-first `dolt-mcp-vcs`
-platform plugin). Flat-by-default per Document Filing Standard v4.4; `NNN` is one global chronological
-sequence.
+Document inventory for the `dolt-mcp-vcs` platform plugin (formerly `beads-dolt` — the
+inversion is complete; docs 001–004 record it). Flat-by-default per Document Filing Standard
+v4.4; `NNN` is one global chronological sequence.
 
 ## Documents
 
@@ -12,6 +12,7 @@ sequence.
 | 002 | AT-ARCH | [Architecture blueprint — `dolt-mcp-vcs`: one VC core + thin adapters](002-AT-ARCH-dolt-mcp-vcs-blueprint.md) | The build spec: one-core-+-adapters design, connection descriptor, maturity-gated flavor adapters, 5→3 agent collapse, mutation verb taxonomy, `dolt-watch` routine, build sequence, file-by-file map. |
 | 003 | AT-DECR | [Decision Record — invert `beads-dolt` into a Dolt-first platform plugin](003-AT-DECR-dolt-first-platform-inversion.md) | Records the inversion; preserves the 5-seat canon's overridden dissent **verbatim** (full-platform-now + slug-freeze); the owner's overrides; the adopted mitigations (`dolt-watch`, maturity-as-data, safety taxonomy, eval-gate); the slug-is-a-public-contract clause + accepted breakage. |
 | 004 | RA-REVW | [Engineering panel review — the plan-of-record (D1–D3)](004-RA-REVW-engineering-panel-review.md) | The 6-seat engineering-panel review record. **Unanimous `proceed-with-changes`** (6/6; 0 abandon, 0 proceed-clean): architecture sound, fixes are enforcement + execution-readiness. Preserves each finding by seat: 6 BLOCKERs (→ Phase 0, gating Build 1), 9 MAJORs + 3 MINORs (→ revised plan). Drives the Task-A corrections in 001 + 002. |
+| 005 | AT-ARCH | [The flavor auto-detection contract (`dolt-detect.py`)](005-AT-ARCH-flavor-autodetection-contract.md) | The Step-0 detection spec (v0.2.0): probe order, the full make-and-model taxonomy (dolt repo/server/embedded · doltgres · doltlite `b"CTLD"` magic · dumbo), the additive `mode` descriptor field, actual-bound-port-over-config rule, ranking, honesty rules, and the 2026-07-17 verification record. |
 
 ## Reading order
 
